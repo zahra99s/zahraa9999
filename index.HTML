@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.CSS">
+    <title>Body Care</title>
+</head>
+
+<body>
+    <style>
+        body{
+            font-family:"Almarai" ;
+          background-color: rgb(248, 237, 223);
+        }
+        .colorbox{
+            height: 120px;
+        }
+        .col-md-3:hover{
+            cursor: pointer;
+            opacity: 0.6;
+            transform: scale(1.07);
+        
+        }
+        .img img{
+            width:250px;
+            height:250px;
+            object-fit: cover;
+        }
+        .img:hover{
+            opacity: 0.6;
+            transform: scale(1.07);
+        }
+        h1{
+           
+            text-transform: capitalize;
+            letter-spacing: 2px;
+        }
+        .img:hover::after{
+            content:attr(data-caption);
+            position: absolute;
+            bottom: 0;
+            display: inline;
+            color:rgb(251, 220, 179) ;
+            background: rgb(14, 12, 12);
+            font-size: 10px;
+        }
+        
+        .icons a{
+            color: #fff;
+        }
+        .icons ion-icon{
+            align-items: center;
+            color: #fff;
+            font-size:30px;
+            padding-left: 14px;
+            padding-top: 5px;
+            transition: 0.3s ease;
+        
+        }
+        .icons ion-icon:hover{
+            color: #b79880;
+        }
+        h4{
+            font-size: 20px;
+        }
+        .zzz, .CCC{
+             font-size: 10px;
+            }
+        #checkbox:checked + .main{
+            background: #000;
+            color: #fff;
+        }    
+        
+    </style>
+    <input type="checkbox" id="checkbox">Dark system
+    <div class="main">
+    
+    <div class="container text-center" >
+
+        <h1>Body Care from Madam Coachella</h1> <br>
+        <div class="row" style="display: block;">
+            <div class="col-md-3">
+              <div class="colorbox card shadow" style="background-color: rgb(123, 174, 215);">
+                <h3>Skin Care</h3>
+                <p>Good skin care is important at any age. The skin has strong collagen and elastin production in the first few decades <br>
+                    of life, but it decreases. A good skincare routine helps regenerate skin cell production to keep the skin 
+                    looking and feeling its best throughout your life </p>
+              </div> <br> 
+
+            </div>
+            <div class="col-md-3">
+                <div class="colorbox card shadow" style="background-color: rgb(113, 222, 157);">
+                  <h3>Hair Care</h3>
+                  <p>Hair care is important for not only our appearance, but also for our overall hygiene. Having healthy hair allows us to look our best and ensure our hair and scalp is healthy. <br>
+                     It is important to visit a reputable salon and utilize quality hair care products to ensure your hair is as healthy as possible</p>
+                  
+                </div> <br> 
+  
+              </div>
+              <div class="col-md-3">
+                <div class="colorbox card shadow" style="background-color: rgb(125, 20, 170);">
+                  <h3>Body Care</h3>
+                  <p>Our skin is our primary defense against the outside elements. It's an airtight and watertight barrier that protects <br>
+                     us from the millions of microbes in our environment. So if our skin is damaged, bacteria and germs can easily infect us, 
+                     and our immunity will be compromised</p>
+                </div>  <br>
+  
+              </div>
+              <div class="col-md-3">
+                <div class="colorbox card shadow" style="background-color: rgb(218, 107, 146);">
+                  <h3>Nails Care</h3>
+                  <p>Your nails are there to protect your hands providing a strong shield as <br>
+                     you work with them each day, as well as a barrier the cuticle  which keeps out environmental pollutants</p>
+                </div> <br> 
+  
+              </div>
+        </div>
+</div>
+
+    <div class="container text-center">
+     <h1>Our Products</h1> <br>
+
+    <div class="row">
+
+     <div class="col-md-3" >
+        <div class="img" data-caption="Skin Care Product">
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBvZdelwvlEPJ4b9x6KgjUfgsFeI9yyTTNaQ&usqp=CAU">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBvZdelwvlEPJ4b9x6KgjUfgsFeI9yyTTNaQ&usqp=CAU" alt="#">
+            </a>
+            
+        </div>
+        
+    </div>
+
+        <div class="col-md-3">
+            <div class="img" data-caption="Hair Care Product">
+                <a href="Hair product.jpg">
+                    <img src="Hair product.jpg" alt="#">
+                </a>
+            </div>
+        </div>
+
+            <div class="col-md-3" >
+                <div class="img" data-caption="Body Care Product">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_69wKtbSrEE8jlyiPpSEudSzi52etFpHG4Q&usqp=CAU">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_69wKtbSrEE8jlyiPpSEudSzi52etFpHG4Q&usqp=CAU" alt="#">
+                    </a>
+                </div>
+            </div>
+
+                <div class="col-md-3" >
+                    <div class="img" data-caption="Nails Care Product">
+                        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvbGRqSetGvsUPgg7k8_YZ4JYbYDO9vUZhaw&usqp=CAU">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvbGRqSetGvsUPgg7k8_YZ4JYbYDO9vUZhaw&usqp=CAU" alt="#">
+                        </a>
+                    </div>
+                </div>
+    </div>
+
+</div><br>
+<div class="container text-center">
+
+   <div class="row">
+
+    <div class="col-md-3" >
+       <div class="img" data-caption="Skin Care Product">
+           <a href="5555.jpg">
+               <img src="5555.jpg" alt="#">
+           </a>
+           
+       </div>
+       
+   </div>
+
+       <div class="col-md-3">
+           <div class="img" data-caption="Hair Care Product">
+               <a href="8888.jpg">
+                   <img src="8888.jpg" alt="#">
+               </a>
+           </div>
+       </div>
+
+           <div class="col-md-3" >
+               <div class="img" data-caption="Body Care Product">
+                   <a href="6666.jpg">
+                       <img src="6666.jpg" alt="#">
+                   </a>
+               </div>
+           </div>
+
+               <div class="col-md-3" >
+                   <div class="img" data-caption="Nails Care Product">
+                       <a href="4444.jpg">
+                           <img src="4444.jpg" alt="#">
+                       </a>
+                   </div>
+               </div>
+   </div>
+
+</div>
+
+</body><br> <br> <br><br>
+</div>
+<footer class="text-white" style="background-color: rgb(31, 29, 27);">
+    <div class="container">
+        <center>
+        <div class="row">
+            <div class="col-md-6" >
+              <h4>About Madam Coachella Products</h4>  
+              <p class="zzz">Madame Coachella is an exclusive agency for hair, skin and body with a developed Japanese formula</p>
+            </div>
+            <div class="col-md-6">
+                <p class="CCC">Contat With Us</p>
+                <div class="icons">
+                    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fmadamcoachellaextra%2Fphotos%2Fa.116411796411275%2F528064645245986%2F%3Ftype%3D3&psig=AOvVaw37ADR2DBKeiwgBU1nVTbga&ust=1687267520908000&source=images&cd=vfe&ved=2ahUKEwik14i7t8__AhWlsCcCHU2eAHkQr4kDegUIARDdAQ">
+                        <ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.instagram.com%2Fmadam_coachella_extra%2F&psig=AOvVaw37ADR2DBKeiwgBU1nVTbga&ust=1687267520908000&source=images&cd=vfe&ved=2ahUKEwik14i7t8__AhWlsCcCHU2eAHkQr4kDegUIARDfAQ"><ion-icon name="logo-instagram"></ion-icon></a>
+
+                   
+
+                    <a href="https://www.google.com/search?sa=X&bih=714&biw=1536&hl=ar&sxsrf=APwXEdcvtXajis9PKhSvvLH8rKryp-z_xg:1687180542864&q=%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA+%D9%85%D8%AF%D8%A7%D9%85+%D9%83%D9%88%D8%AA%D8%B4%D9%8A%D9%84%D8%A7+%D9%84%D9%84%D8%A7%D8%B8%D8%A7%D9%81%D8%B1&tbm=isch&source=univ&fir=Kyh3lvpCI_iEBM%252C_yXHmqh_Dr-ffM%252C_%253BbguikNcQQ2VZ7M%252CfFCR5cFQ-7DWVM%252C_%253BPZUAhk88nw_sIM%252CowNWHZJT_RKbXM%252C_%253BSA_zHsUBauUV9M%252Cc4q_RaG3JcRJvM%252C_%253BZVvvXt1EWmwMLM%252CWAWAvBibVDeVFM%252C_%253BVtpMqrmL0DdyzM%252Cr4qj0ztJXCdqNM%252C_%253BwYVIexkXXrjPUM%252CowNWHZJT_RKbXM%252C_%253B6aSX-XA_A7wM3M%252C-oBuL38j2v4wcM%252C_%253BC-Yhkp281Cpi4M%252CK5nS8CReHH_ASM%252C_%253BIy4isxj_7Tn1WM%252Cfw2uhFU0gAkFtM%252C_&usg=AI4_-kSPu10trNlohlBhNc5P_5_a30mbkA&ved=2ahUKEwjeq7entc__AhU4XqQEHdgmDggQjJkEegQIGBAC"><ion-icon name="logo-google"></ion-icon></a>
+
+                    
+                    
+                   </div>
+
+            </div>
+        </div></center>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</footer>
+</html>
